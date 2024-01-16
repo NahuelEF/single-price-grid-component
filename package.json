@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+    "watch": "npx tailwindcss -i ./src/style.css -o ./docs/style.css --watch"
   },
   "author": "Nahuel Fedele",
   "license": "ISC",
