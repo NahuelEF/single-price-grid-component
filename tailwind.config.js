@@ -1,7 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  content: ["./public/index.html"],
+  content: ["./index.html"],
   theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Karla"', ...defaultTheme.fontFamily.sans],
+      },
+    },
     colors: {
       white: "hsl(0, 0%, 100%)",
       "light-cyan": "hsl(179, 62%, 43%)",
